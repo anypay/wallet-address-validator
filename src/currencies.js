@@ -16,6 +16,16 @@ var CURRENCIES = [{
     addressTypes: {prod: ['00', '05'], testnet: ['6f', 'c4']},
     validator: BTCValidator
 },{
+    name: 'raven',
+    symbol: 'rvn',
+    addressTypes: {prod: ['3c'], testnet: ['6f', 'c4']},
+    validator: BTCValidator
+},{
+    name: 'smart',
+    symbol: 'smart',
+    addressTypes: {prod: ['2S'], testnet: ['6f', 'c4']},
+    validator: BTCValidator
+},{
     name: 'litecoin',
     symbol: 'ltc',
     addressTypes: {prod: ['30', '05', '32'], testnet: ['6f', 'c4', '3a']},
